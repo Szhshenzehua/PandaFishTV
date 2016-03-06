@@ -146,7 +146,7 @@
     cell.nameLabel.text = model.name;
     cell.pinFenLabel.text = model.pinFen;
     NSLog(@"%@",model.pinFen);
-    [cell.imageView sd_setImageWithURL:[NSURL URLWithString:model.imageURl] placeholderImage:[UIImage imageNamed:@"clean"]];
+    [cell.imageView sd_setImageWithURL:[NSURL URLWithString:model.imageURl]];
     
     return cell;
 }

@@ -30,7 +30,7 @@
 #define RoomIDKeyAPI @"http://api.m.panda.tv/ajax_room?roomid=%@&type=json&__version=1.0.0.1140&__plat=ios&ts=%@"
 
 // 超清    高清  _mid.flv
-#define PlayVideoAPI @"http://pl3.live.panda.tv/live_panda/%@.flv"
+#define PlayVideoAPI @"http://pl3.live.panda.tv/live_panda/%@_mid.flv"
 #define PlayVieeoAPI1 @"http://pl8.live.panda.tv/live_panda/%@.flv"
 
 

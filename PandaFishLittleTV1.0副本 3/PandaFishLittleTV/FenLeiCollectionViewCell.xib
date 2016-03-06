@@ -42,7 +42,7 @@
                 <outlet property="gameImage" destination="Fhz-yC-GmC" id="Wlf-Ag-U3B"/>
                 <outlet property="gameName" destination="viQ-2Q-Tku" id="2Vo-BH-4z2"/>
             </connections>
-            <point key="canvasLocation" x="381.5" y="268.5"/>
+            <point key="canvasLocation" x="158.5" y="277.5"/>
         </collectionViewCell>
     </objects>
 </document>

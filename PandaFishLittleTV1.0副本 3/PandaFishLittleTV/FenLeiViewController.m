@@ -7,7 +7,6 @@
 //
 
 #import "FenLeiViewController.h"
-#import "AppDelegate.h"
 #import "FenLeiSubViewController.h"
 #import <AFNetworking.h>
 #import "GameFenLeiModel.h"
