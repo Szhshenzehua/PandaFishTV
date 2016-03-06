@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b4586ffb-9304-4f24-9821-8e5867c6f7dd",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b4586ffb-9304-4f24-9821-8e5867c6f7dd" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b4586ffb-9304-4f24-9821-8e5867c6f7dd" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A68A4CFF-65C6-4B04-AAA0-4091FA0BECEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b4586ffb-9304-4f24-9821-8e5867c6f7dd" : "MyDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PandaFishLittleTV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PandaFishLittleTV1.0副本\/PandaFishLittleTV.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.8.156.42",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b4586ffb-9304-4f24-9821-8e5867c6f7dd"
+    }
+  ]
+}
