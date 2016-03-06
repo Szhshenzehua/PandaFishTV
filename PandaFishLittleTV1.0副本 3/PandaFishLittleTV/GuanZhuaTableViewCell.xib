@@ -17,7 +17,7 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVL-aQ-VG7">
                         <rect key="frame" x="95" y="8" width="255" height="37"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="37" id="2rv-Co-6Ye"/>
+                            <constraint firstAttribute="height" constant="37" id="bnf-id-nyW"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -26,14 +26,14 @@
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zOt-2s-cKc">
                         <rect key="frame" x="8" y="4" width="60" height="60"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="60" id="HvE-da-smB"/>
-                            <constraint firstAttribute="width" constant="60" id="VfY-zY-sAw"/>
+                            <constraint firstAttribute="height" constant="60" id="7A6-ol-yC0"/>
+                            <constraint firstAttribute="width" constant="60" id="m61-lr-sv5"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1J-w0-Fzu">
                         <rect key="frame" x="95" y="46" width="186" height="29"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="29" id="B4f-hQ-pW4"/>
+                            <constraint firstAttribute="height" constant="29" id="qNR-xC-C52"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -41,14 +41,14 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="EVL-aQ-VG7" secondAttribute="trailing" id="9Mv-l3-pdH"/>
-                    <constraint firstItem="zOt-2s-cKc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="G4s-y6-pW1"/>
-                    <constraint firstItem="D1J-w0-Fzu" firstAttribute="leading" secondItem="zOt-2s-cKc" secondAttribute="trailing" constant="27" id="GRu-R1-7vZ"/>
-                    <constraint firstItem="EVL-aQ-VG7" firstAttribute="leading" secondItem="zOt-2s-cKc" secondAttribute="trailing" constant="27" id="Gd0-2J-j2T"/>
-                    <constraint firstItem="EVL-aQ-VG7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="PQa-kD-b6C"/>
-                    <constraint firstAttribute="trailing" secondItem="D1J-w0-Fzu" secondAttribute="trailing" constant="69" id="ZSy-iE-NUo"/>
-                    <constraint firstItem="D1J-w0-Fzu" firstAttribute="top" secondItem="EVL-aQ-VG7" secondAttribute="bottom" constant="1" id="ve8-k8-iON"/>
-                    <constraint firstItem="zOt-2s-cKc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="zo9-UP-e6S"/>
+                    <constraint firstAttribute="trailing" secondItem="EVL-aQ-VG7" secondAttribute="trailing" id="7T6-tE-mWf"/>
+                    <constraint firstItem="D1J-w0-Fzu" firstAttribute="top" secondItem="EVL-aQ-VG7" secondAttribute="bottom" constant="1" id="LhV-Uc-Xq5"/>
+                    <constraint firstItem="EVL-aQ-VG7" firstAttribute="leading" secondItem="zOt-2s-cKc" secondAttribute="trailing" constant="27" id="SXp-XM-90C"/>
+                    <constraint firstItem="D1J-w0-Fzu" firstAttribute="leading" secondItem="zOt-2s-cKc" secondAttribute="trailing" constant="27" id="bl7-lZ-Tyj"/>
+                    <constraint firstItem="EVL-aQ-VG7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="deS-u9-PfU"/>
+                    <constraint firstAttribute="trailing" secondItem="D1J-w0-Fzu" secondAttribute="trailing" constant="69" id="euT-vU-TDi"/>
+                    <constraint firstItem="zOt-2s-cKc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="mzc-d4-jNC"/>
+                    <constraint firstItem="zOt-2s-cKc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="wCB-y6-9D6"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
@@ -56,7 +56,7 @@
                 <outlet property="nameLabel" destination="EVL-aQ-VG7" id="XS2-EZ-pyR"/>
                 <outlet property="pinFenLabel" destination="D1J-w0-Fzu" id="wym-wK-3Nd"/>
             </connections>
-            <point key="canvasLocation" x="260" y="240"/>
+            <point key="canvasLocation" x="223" y="243"/>
         </tableViewCell>
     </objects>
 </document>

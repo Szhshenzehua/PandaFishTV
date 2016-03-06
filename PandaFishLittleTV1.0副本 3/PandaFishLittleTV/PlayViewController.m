@@ -128,7 +128,7 @@
 
     
     _starsBGView.frame = CGRectMake(0, kWindowHeight + 100, kWindowWidth, kWindowHeight / 3);
-    
+     _starsView.starForegroundView.alpha = 0;
  }
 
 

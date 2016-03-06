@@ -67,10 +67,6 @@
 
 - (void)loadDataSource {
     
-    
-    
-    
-    
     _manager = [AFHTTPSessionManager manager];
     _manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
     //增加新的类型text/html

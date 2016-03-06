@@ -22,6 +22,8 @@
 
 - (id)initWithFrame:(CGRect)frame numberOfStar:(int)number;
 
+@property (nonatomic, strong) UIView *starForegroundView;
+
 @property (nonatomic, readonly) int numberOfStar;
 
 @property (nonatomic, weak) id <StarRatingViewDelegate> delegate;

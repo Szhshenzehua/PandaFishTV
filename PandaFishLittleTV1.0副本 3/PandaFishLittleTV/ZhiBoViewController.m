@@ -80,10 +80,10 @@
     NSString *timeString = [NSString stringWithFormat:@"%f", a];
     
     NSString * url = [NSString stringWithFormat:AllLiveAPI,self.page,timeString];
-    NSLog(@"全部直播的网址是%@",url);
+   // NSLog(@"全部直播的网址是%@",url);
     
     [self.manager GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-         NSLog(@"%@",responseObject);
+        // NSLog(@"%@",responseObject);
         AllLiveModel *model = [[AllLiveModel alloc] initWithDictionary:responseObject error:nil];
 
         if (self.isPullDown) {

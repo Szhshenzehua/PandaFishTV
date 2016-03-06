@@ -49,8 +49,7 @@ const CGFloat kStatusBarHeight = 20;
     [super viewDidLoad];
     
     _dataSouce = [NSMutableArray arrayWithObjects:@"建议反馈",@"帮助",@"清空缓存", nil];
-    _imageDataSouce = [NSMutableArray arrayWithObjects:@"like1hl",@"about",@"head"
-                       ,nil];
+    _imageDataSouce = [NSMutableArray arrayWithObjects:@"like1hl",@"about",@"head",nil];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
     self.headerHeight = 300;

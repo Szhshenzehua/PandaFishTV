@@ -51,6 +51,8 @@
     
     [super endRedresh];
 }
+
+
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
    
     [self createWaterRecon];
@@ -62,13 +64,12 @@
     NSString * videoURl = [NSString stringWithFormat:PlayVideoAPI,model.room_key];
     
     vc.playURL = videoURl;
-    vc.model = [ShouCangModel new];
-    vc.model.roomID = model.id;
-    vc.model.roomKey = model.room_key;
-    vc.roomImageURl = model.pictures.img;
-    vc.model.imageURl = model.userinfo.avatar;
-    vc.model.name = model.name;
     
+    vc.roomID = model.id;
+    vc.roomKey = model.room_key;
+    vc.roomImageURl = model.pictures.img;
+    vc.imageURl = model.userinfo.avatar;
+    vc.name = model.name;
     vc.xiangqing = model.banned_reason;
     [self.navigationController pushViewController:vc animated:YES];
     

@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface GuanZhuaTableViewCell : UITableViewCell
+
+
 @property (weak, nonatomic) IBOutlet UILabel *pinFenLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *manImageView;

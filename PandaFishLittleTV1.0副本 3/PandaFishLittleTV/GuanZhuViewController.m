@@ -142,11 +142,10 @@
     GuanZhuaTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
     
     ShouCangModel *model = self.dataSource[indexPath.row];
-    cell.showsReorderControl =YES;
+    //cell.showsReorderControl =YES;
     cell.nameLabel.text = model.name;
     cell.pinFenLabel.text = model.pinFen;
-    NSLog(@"%@",model.pinFen);
-    [cell.imageView sd_setImageWithURL:[NSURL URLWithString:model.imageURl]];
+    [cell.manImageView sd_setImageWithURL:[NSURL URLWithString:model.imageURl]];
     
     return cell;
 }

@@ -11,8 +11,6 @@
 @interface TQStarRatingView ()
 
 @property (nonatomic, strong) UIView *starBackgroundView;
-@property (nonatomic, strong) UIView *starForegroundView;
-
 @end
 
 @implementation TQStarRatingView
