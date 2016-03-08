@@ -30,7 +30,7 @@
     resultarr = [HeadImageArrayModel arrayOfModelsFromDictionaries:dataArray error:&error];
 
     if (error) {
-        NSLog(@"推荐主播的信息%@",error);
+       // NSLog(@"推荐主播的信息%@",error);
     }
     
     return resultarr;

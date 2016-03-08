@@ -30,7 +30,7 @@
     
     if (error) {
         
-        NSLog(@"16个主播的信息%@",error);
+       // NSLog(@"16个主播的信息%@",error);
     }
     
     return resultarr;

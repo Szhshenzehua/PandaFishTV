@@ -58,7 +58,7 @@
     }
     [_shoucanButton addTarget:self action:@selector(shouCangBtn:) forControlEvents:(UIControlEventTouchUpInside)];
     
-    NSLog(@"wangzhishi%@",_playURL);
+    //NSLog(@"wangzhishi%@",_playURL);
     
 }
 - (void)createUI {
@@ -118,8 +118,6 @@
         
     }else if (sender.tag == 101) {
     
-      
-        
         _model.pinFen = self.stastNum;
         
         [_shoucanButton setImage:[UIImage imageNamed:@"like1hl"] forState:(UIControlStateNormal)];
@@ -140,13 +138,11 @@
         self.stastNum = @"9.99";
     }
     
-    if (self.stastNum == nil){
+    if ([self.stastNum isEqualToString:@""]){
         
         self.stastNum = @"0.00";
     }
 }
-
-
 
 - (void)shouCangBtn:(id)sender {
     

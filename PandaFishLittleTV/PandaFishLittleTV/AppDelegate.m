@@ -47,15 +47,15 @@
     AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
 
     [manager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-        NSLog(@"网络状态变化");
+       // NSLog(@"网络状态变化");
         if (status == 0) {
-            NSLog(@"没有网络");
+           // NSLog(@"没有网络");
         }else if(status == 1) {
-            NSLog(@"移动网络");
+           // NSLog(@"移动网络");
             
         }else if (status == 2){
             
-            NSLog(@"wifi");
+            //NSLog(@"wifi");
         }
     }];
     // 开始监听
@@ -132,7 +132,7 @@
         error = [NSError errorWithDomain:@"YOUR_ERROR_DOMAIN" code:9999 userInfo:dict];
         // Replace this with code to handle the error appropriately.
         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+       // NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }
     
@@ -164,7 +164,7 @@
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
             // Replace this implementation with code to handle the error appropriately.
             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+            //NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
         }
     }

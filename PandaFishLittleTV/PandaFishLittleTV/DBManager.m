@@ -49,7 +49,7 @@
             //创建表 不存在 则创建
             [self creatTable];
         }else {
-            NSLog(@"database open failed:%@",_database.lastErrorMessage);
+            //NSLog(@"database open failed:%@",_database.lastErrorMessage);
         }
     }
     return self;
@@ -61,7 +61,7 @@
     //创建表 如果不存在则创建新的表
     BOOL isSuccees = [_database executeUpdate:sql];
     if (!isSuccees) {
-        NSLog(@"creatTable error:%@",_database.lastErrorMessage);
+       // NSLog(@"creatTable error:%@",_database.lastErrorMessage);
     }
 }
 
@@ -94,7 +94,7 @@
         return [docPath stringByAppendingFormat:@"/%@",fileName];
     }else {
         //如果不存在可以创建一个新的
-        NSLog(@"Documents不存在");
+       // NSLog(@"Documents不存在");
         return nil;
     }
 }
@@ -108,7 +108,7 @@
     
     if ([self isExistAppForRoomID:model.roomID]) {
         
-        NSLog(@"insert error:%@",_database.lastErrorMessage);
+      //  NSLog(@"insert error:%@",_database.lastErrorMessage);
         return ;
     }
     NSString *sql = @"insert into pandaFish(roomID,name,roomKey,ImageURl,fenshu) values (?,?,?,?,?)";
@@ -116,7 +116,7 @@
     BOOL isSuccess = [_database executeUpdate:sql,relutModel.roomID,relutModel.name,relutModel.roomKey,relutModel.imageURl,relutModel.pinFen];
     
     if (!isSuccess) {
-        NSLog(@"insert error:%@",_database.lastErrorMessage);
+       // NSLog(@"insert error:%@",_database.lastErrorMessage);
         
     }
 }
@@ -135,6 +135,7 @@
 //根据指定类型  查找所有的记录
 //根据记录类型 查找 指定的记录
 - (NSArray *)readAllModelsWithFenShu  {
+    
     NSString *sql = @"select *from pandaFish Order By fenshu Desc ";
     FMResultSet * rs = [_database executeQuery:sql];
     NSMutableArray *arr = [NSMutableArray array];

@@ -89,7 +89,6 @@
 		BC6CF7DF1C8482FB0002F837 /* FenLeiSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CF7DE1C8482FB0002F837 /* FenLeiSubViewController.m */; };
 		BC6CF7E31C84866F0002F837 /* GameFenLeiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CF7E21C84866F0002F837 /* GameFenLeiModel.m */; };
 		BC8096BC1C8DCDCF003A81DC /* back1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096A81C8DCDCF003A81DC /* back1.png */; };
-		BC8096BD1C8DCDCF003A81DC /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096A91C8DCDCF003A81DC /* LaunchImage.png */; };
 		BC8096BE1C8DCDCF003A81DC /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096AA1C8DCDCF003A81DC /* back3.png */; };
 		BC8096BF1C8DCDCF003A81DC /* back4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096AB1C8DCDCF003A81DC /* back4.png */; };
 		BC8096C01C8DCDCF003A81DC /* beauty.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096AC1C8DCDCF003A81DC /* beauty.png */; };
@@ -108,7 +107,6 @@
 		BC8096CD1C8DCDCF003A81DC /* person2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096B91C8DCDCF003A81DC /* person2.png */; };
 		BC8096CE1C8DCDCF003A81DC /* sky1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096BA1C8DCDCF003A81DC /* sky1.png */; };
 		BC8096CF1C8DCDCF003A81DC /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096BB1C8DCDCF003A81DC /* stars.png */; };
-		BC8096D11C8DCE23003A81DC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8096D01C8DCE23003A81DC /* Launch Screen.storyboard */; };
 		BC8096D31C8DD012003A81DC /* stars4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC8096D21C8DD012003A81DC /* stars4.png */; };
 		BC8355761C82FC9A0027D0A0 /* MMParallaxPage.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8355731C82FC9A0027D0A0 /* MMParallaxPage.m */; };
 		BC8355771C82FC9A0027D0A0 /* MMParallaxPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8355751C82FC9A0027D0A0 /* MMParallaxPresenter.m */; };
@@ -151,6 +149,8 @@
 		BC9FD9F01C87281E00C9B00F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9FD9EF1C87281E00C9B00F /* libsqlite3.tbd */; };
 		BCACF8C51C8E65940084CA82 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCACF8C31C8E65940084CA82 /* appicon.png */; };
 		BCACF8C61C8E65940084CA82 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCACF8C41C8E65940084CA82 /* appicon@2x.png */; };
+		BCACF8C81C8EC2EC0084CA82 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCACF8C71C8EC2EC0084CA82 /* LaunchImage.png */; };
+		BCACF8CA1C8EE9DA0084CA82 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCACF8C91C8EE9DA0084CA82 /* Launch Screen.storyboard */; };
 		BCADE6EF1C804F5C00447BF6 /* ZHDiffView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCADE6EE1C804F5C00447BF6 /* ZHDiffView.m */; };
 		BCADE6F71C80809B00447BF6 /* NewLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCADE6F61C80809B00447BF6 /* NewLeftViewController.m */; };
 		BCB0ADDF1C7F2E9400CF122B /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB0ADDD1C7F2E9400CF122B /* MainCollectionViewCell.m */; };
@@ -329,7 +329,6 @@
 		BC6CF7E11C84866F0002F837 /* GameFenLeiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFenLeiModel.h; sourceTree = "<group>"; };
 		BC6CF7E21C84866F0002F837 /* GameFenLeiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFenLeiModel.m; sourceTree = "<group>"; };
 		BC8096A81C8DCDCF003A81DC /* back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1.png; sourceTree = "<group>"; };
-		BC8096A91C8DCDCF003A81DC /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = png/LaunchImage.png; sourceTree = "<group>"; };
 		BC8096AA1C8DCDCF003A81DC /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
 		BC8096AB1C8DCDCF003A81DC /* back4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back4.png; sourceTree = "<group>"; };
 		BC8096AC1C8DCDCF003A81DC /* beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beauty.png; sourceTree = "<group>"; };
@@ -348,7 +347,6 @@
 		BC8096B91C8DCDCF003A81DC /* person2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person2.png; sourceTree = "<group>"; };
 		BC8096BA1C8DCDCF003A81DC /* sky1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky1.png; sourceTree = "<group>"; };
 		BC8096BB1C8DCDCF003A81DC /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars.png; sourceTree = "<group>"; };
-		BC8096D01C8DCE23003A81DC /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BC8096D21C8DD012003A81DC /* stars4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stars4.png; sourceTree = "<group>"; };
 		BC8355721C82FC9A0027D0A0 /* MMParallaxPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMParallaxPage.h; sourceTree = "<group>"; };
 		BC8355731C82FC9A0027D0A0 /* MMParallaxPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMParallaxPage.m; sourceTree = "<group>"; };
@@ -427,6 +425,8 @@
 		BC9FD9EF1C87281E00C9B00F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		BCACF8C31C8E65940084CA82 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		BCACF8C41C8E65940084CA82 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
+		BCACF8C71C8EC2EC0084CA82 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = png/LaunchImage.png; sourceTree = "<group>"; };
+		BCACF8C91C8EE9DA0084CA82 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BCADE6ED1C804F5C00447BF6 /* ZHDiffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHDiffView.h; sourceTree = "<group>"; };
 		BCADE6EE1C804F5C00447BF6 /* ZHDiffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHDiffView.m; sourceTree = "<group>"; };
 		BCADE6F51C80809B00447BF6 /* NewLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLeftViewController.h; sourceTree = "<group>"; };
@@ -593,7 +593,7 @@
 				BCB0ADE11C7F457500CF122B /* 播放页面 */,
 				BC0B251D1C7DD38600CAC68D /* MainView */,
 				BC0B24FA1C7DC03700CAC68D /* Main.storyboard */,
-				BC8096D01C8DCE23003A81DC /* Launch Screen.storyboard */,
+				BCACF8C91C8EE9DA0084CA82 /* Launch Screen.storyboard */,
 				BC0B25001C7DC03700CAC68D /* Assets.xcassets */,
 				BC0B25051C7DC03700CAC68D /* Info.plist */,
 				BC0B24FD1C7DC03700CAC68D /* PandaFishLittleTV.xcdatamodeld */,
@@ -682,7 +682,7 @@
 			children = (
 				BC8096D21C8DD012003A81DC /* stars4.png */,
 				BC8096A71C8DCDCF003A81DC /* png */,
-				BC8096A91C8DCDCF003A81DC /* LaunchImage.png */,
+				BCACF8C71C8EC2EC0084CA82 /* LaunchImage.png */,
 				BC0B25181C7DCF4400CAC68D /* nav_menu_icon@2x.png */,
 				BC0B25331C7DE32300CAC68D /* about@2x.png */,
 				BC0B25341C7DE32300CAC68D /* about@3x.png */,
@@ -1170,6 +1170,7 @@
 				BCDB894D1C89C7390064BDDD /* img_dot@2x.png in Resources */,
 				BC0B25A01C7DE32300CAC68D /* big5@2x.png in Resources */,
 				BC8096C71C8DCDCF003A81DC /* IMG_1.png in Resources */,
+				BCACF8CA1C8EE9DA0084CA82 /* Launch Screen.storyboard in Resources */,
 				BC0B25A21C7DE32300CAC68D /* bigShadow.png in Resources */,
 				BC0B25D21C7DE32300CAC68D /* tab4hl.png in Resources */,
 				BC8096C41C8DCDCF003A81DC /* IMG1.png in Resources */,
@@ -1188,6 +1189,7 @@
 				BCDB892F1C89C7390064BDDD /* bt_exit_fullscreen_hl@2x.png in Resources */,
 				BCB627041C8ACEF600C72F14 /* heart_off_white@2x.png in Resources */,
 				BCDB89531C89C7390064BDDD /* voice_max@2x.png in Resources */,
+				BCACF8C81C8EC2EC0084CA82 /* LaunchImage.png in Resources */,
 				BCDB893B1C89C7390064BDDD /* bt_lock_close_normal@2x.png in Resources */,
 				BCDB89331C89C7390064BDDD /* bt_forward_normal@2x.png in Resources */,
 				BCDB89341C89C7390064BDDD /* bt_forward_normal@3x.png in Resources */,
@@ -1213,14 +1215,12 @@
 				BCDB89281C89C7390064BDDD /* bt_back_hl@3x.png in Resources */,
 				BC0B25DF1C7DE32300CAC68D /* tabbar3@3x.png in Resources */,
 				BC0B25A41C7DE32300CAC68D /* clean@3x.png in Resources */,
-				BC8096D11C8DCE23003A81DC /* Launch Screen.storyboard in Resources */,
 				BC0B25DB1C7DE32300CAC68D /* tabbar2@3x.png in Resources */,
 				BC8096C81C8DCDCF003A81DC /* IMG_2.png in Resources */,
 				BC0B25E71C7DE32300CAC68D /* tabbar5@3x.png in Resources */,
 				BC8096C31C8DCDCF003A81DC /* IMG0.png in Resources */,
 				BC6CF7D31C846F760002F837 /* dreem1.PNG in Resources */,
 				BC0B25DA1C7DE32300CAC68D /* tabbar2@2x.png in Resources */,
-				BC8096BD1C8DCDCF003A81DC /* LaunchImage.png in Resources */,
 				BC0B25CF1C7DE32300CAC68D /* tab1hl.png in Resources */,
 				BCDB894B1C89C7390064BDDD /* bt_snapshot_normal@2x.png in Resources */,
 				BCDB89451C89C7390064BDDD /* bt_play_hl@2x.png in Resources */,
@@ -1445,9 +1445,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1467,6 +1469,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1a784018-3de9-459f-8518-1b0ea79d46c1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1488,9 +1491,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1503,6 +1508,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1a784018-3de9-459f-8518-1b0ea79d46c1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1513,6 +1519,7 @@
 			baseConfigurationReference = 565C4D4A690E2F29D34F3714 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = PandaFishLittleTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1521,8 +1528,10 @@
 					"$(PROJECT_DIR)/PandaFishLittleTV",
 					"$(PROJECT_DIR)/PandaFishLittleTV/VideoController",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.1519.PandaFishLittleTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzehua.PandaFishTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a784018-3de9-459f-8518-1b0ea79d46c1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1531,6 +1540,7 @@
 			baseConfigurationReference = 5C4AAAF841273F282E4EE290 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = PandaFishLittleTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1539,8 +1549,10 @@
 					"$(PROJECT_DIR)/PandaFishLittleTV",
 					"$(PROJECT_DIR)/PandaFishLittleTV/VideoController",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.1519.PandaFishLittleTV;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzehua.PandaFishTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a784018-3de9-459f-8518-1b0ea79d46c1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

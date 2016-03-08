@@ -96,7 +96,7 @@
             [_delegate playVideo:model andRoomId:roomID andRoomImage:roomImage];
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"视频播放的地址%@",error);
+       // NSLog(@"视频播放的地址%@",error);
     }];
 }
 

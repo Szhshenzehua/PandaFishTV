@@ -15,29 +15,28 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="rOp-u8-lhO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LaunchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-br-7gg">
+                                <rect key="frame" x="-5" y="0.0" width="605" height="600"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rOp-u8-lhO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="HzF-MD-3BZ"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="rOp-u8-lhO" secondAttribute="bottom" id="I5X-8W-uFl"/>
-                            <constraint firstItem="rOp-u8-lhO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="V6s-Vz-xBq"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="rOp-u8-lhO" secondAttribute="trailing" id="ZWe-ru-wGe"/>
+                            <constraint firstItem="CV2-br-7gg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="3DA-2q-7pO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CV2-br-7gg" secondAttribute="trailing" id="S69-kE-kmV"/>
+                            <constraint firstItem="CV2-br-7gg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Xn6-YD-JaK"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="CV2-br-7gg" secondAttribute="bottom" id="mo5-gR-7tI"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179" y="392"/>
+            <point key="canvasLocation" x="305" y="339"/>
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchImage.png" width="1440" height="900"/>
+        <image name="LaunchImage.png" width="640" height="1136"/>
     </resources>
 </document>

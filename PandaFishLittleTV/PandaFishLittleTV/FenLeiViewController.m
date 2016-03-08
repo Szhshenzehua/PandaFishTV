@@ -108,7 +108,7 @@
         [self endRedresh];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"推荐主播错误是%@",error);
+        //NSLog(@"推荐主播错误是%@",error);
     }];
 }
 

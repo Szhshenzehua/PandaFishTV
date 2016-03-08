@@ -144,7 +144,7 @@
         [self.tableView reloadData];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        NSLog(@"推荐主播错误是%@",error);
+        //NSLog(@"推荐主播错误是%@",error);
     }];
     
     NSString *sixPleplo = [NSString stringWithFormat:PandaRoomAPI,timeString];
@@ -163,7 +163,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
-         NSLog(@"16ren 错误是%@",error);
+        // NSLog(@"16ren 错误是%@",error);
     }];
 }
 
@@ -202,7 +202,7 @@
     
     ZHdiffView.click = ^(int i) {
         
-        NSLog(@"%d",i);
+       // NSLog(@"%d",i);
         // 根据 i 的值 将 url 传出 要注意的是 这里的 i 是从1 开始的
         
         // 这个判断，是因为发现进去页面以后，直接点击中间的那张，报数是 0 ,滑动一下在复位就变成3.最中间的那张
@@ -240,7 +240,7 @@
         
             [self playVideo:model andRoomId:roomModel.roomid andRoomImage:imageUrl[num]];
          } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-             NSLog(@"视频播放的地址%@",error);
+            // NSLog(@"视频播放的地址%@",error);
          }];
 };
 

@@ -176,11 +176,12 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    NSLog(@"点击了删除");
+   // NSLog(@"点击了删除");
     ShouCangModel *model = self.dataSource[indexPath.row];
     [[DBManager sharedManager] deleteValueWithRoomId:model.roomID];
     
     [self loadDataSource];
+    
     [tableView setEditing:NO animated:YES];
 }
 
@@ -203,7 +204,7 @@
 //当两个Cell对换位置后
 - (void)tableView:(UITableView*)tableView moveRowAtIndexPath:(NSIndexPath*)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath
 {
-    NSLog(@"点击了删除");
+   // NSLog(@"点击了删除");
 }
 
 //设置进入编辑状态时，Cell不会缩进
