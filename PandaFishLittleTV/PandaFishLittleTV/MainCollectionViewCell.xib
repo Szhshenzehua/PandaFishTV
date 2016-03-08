@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MainCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="232" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="232" height="187"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbo-lg-fLd">
+                        <rect key="frame" x="0.0" y="0.0" width="232" height="136"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="主播姓名" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPC-Hh-fye">
+                        <rect key="frame" x="8" y="168" width="187" height="19"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="ijs-cM-7fr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="房间名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jn9-IM-bti">
+                        <rect key="frame" x="15" y="143" width="217" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="1OC-mm-jbP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FPC-Hh-fye" secondAttribute="bottom" id="0GF-sa-uqd"/>
+                <constraint firstItem="xbo-lg-fLd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1q6-zN-apb"/>
+                <constraint firstAttribute="trailing" secondItem="Jn9-IM-bti" secondAttribute="trailing" constant="15" id="3Gy-ut-BEz"/>
+                <constraint firstItem="Jn9-IM-bti" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="CaG-0U-sUK"/>
+                <constraint firstAttribute="trailing" secondItem="xbo-lg-fLd" secondAttribute="trailing" id="Kev-Dh-t3g"/>
+                <constraint firstItem="FPC-Hh-fye" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="45" id="OT6-p2-v8p"/>
+                <constraint firstAttribute="trailing" secondItem="FPC-Hh-fye" secondAttribute="trailing" constant="15" id="Ztb-x9-fxT"/>
+                <constraint firstItem="Jn9-IM-bti" firstAttribute="top" secondItem="xbo-lg-fLd" secondAttribute="bottom" constant="6" id="k4X-q8-HvT"/>
+                <constraint firstItem="FPC-Hh-fye" firstAttribute="top" secondItem="Jn9-IM-bti" secondAttribute="bottom" constant="2" id="x8a-T5-gX6"/>
+                <constraint firstItem="xbo-lg-fLd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="z6b-Pd-fiF"/>
+            </constraints>
+            <size key="customSize" width="227" height="362"/>
+            <connections>
+                <outlet property="persenName" destination="FPC-Hh-fye" id="r83-YY-TIb"/>
+                <outlet property="roomImageVIew" destination="xbo-lg-fLd" id="9Ig-xc-36Z"/>
+                <outlet property="roomName" destination="Jn9-IM-bti" id="gxK-5e-Bvp"/>
+            </connections>
+            <point key="canvasLocation" x="227" y="294.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
